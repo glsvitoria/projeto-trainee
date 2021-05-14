@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+p, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area-principal {
+    background-color: #E6B3A1;
+    width: 55%;
+    height: auto;
+    margin: 80px 150px 60px 120px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
+    display: inline-block;
+    padding: 40px;
+}
+
+.area-principal h2 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.bloco1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.area-principal h3 {
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+
+.bloco2 img {
+    display: inline-block;
+    width: 20px;
+}
+
+.bloco2 h4 {
+    display: inline;
+    margin-left: 5px;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.bloco2 p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.area-secundaria {
+    background-color: #E6B3A1;
+    width:20%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 80px 50px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.bloco-nome, .bloco-email {
+    display: inline-block;
+}
+
+.bloco-nome {
+    margin-right: 50px;
+}
+
+#assunto, #comentario {
+    width: calc(100% - 40px);
+}
+
+.enviar {
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: block;
+    background-color: rgb(215, 215, 255);
+    transition: 0.8s all;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+
+.enviar:hover {
+    background-color: rgb(113, 113, 163);
+    transform: scale(1.2);
+}
