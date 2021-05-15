@@ -49,17 +49,6 @@ p, h4 {
     margin-bottom: 30px;
 }
 
-
-.area-secundaria {
-    background-color: #E6B3A1;
-    width:20%;
-    height: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 80px 80px 50px 0;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
-}
-
 form label {
     display: block;
     font-size: 20px;
@@ -99,4 +88,15 @@ form label {
 .enviar:hover {
     background-color: rgb(113, 113, 163);
     transform: scale(1.2);
+}
+
+.area-secundaria {
+    display: inline;
+    
+}
+
+.rodape-lateral {
+    margin-top: 78px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
 }

@@ -11,7 +11,7 @@ main {
 
 .banner {
     width: 68%;
-    padding: 30px;
+    padding: 30px 50px 30px 30px;
     display: inline;
 }
 
@@ -31,7 +31,7 @@ main {
 
 .rodape-lateral input {
     margin-bottom: 20px;
-    padding: 5px 0;
+    padding: 5px 10px;
     width: max-content;
 }
 
