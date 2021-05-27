@@ -26,7 +26,7 @@ main {
     background-color: #E6B3A1;
     margin-top: 30px;
     width: 200px;
-    height: auto;
+    height: 360px;
 }
 
 .rodape-lateral input {
@@ -68,7 +68,7 @@ main {
     margin: 1px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 860px) {
 
     main {
         flex-direction: column;
