@@ -24,7 +24,7 @@ main {
     background-color: #E6B3A1;
     margin-top: 30px;
     width: 25%;
-    height: 410px;
+    height: 100%;
 }
 
 .rodape-lateral input {
@@ -36,6 +36,10 @@ main {
     border: 0;
 
     background-color: #fff0eb;
+}
+
+.lista-categorias {
+    margin-bottom: 20px;
 }
 
 .categorias ul {
@@ -64,6 +68,12 @@ main {
 
 .categorias hr {
     margin: 1px 0;
+}
+
+.imagem-publicidade {
+    width: 100%;
+    margin: 20px 0 0 0;
+    border: 1px solid black;
 }
 
 .posts-all {
