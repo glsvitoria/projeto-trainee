@@ -107,11 +107,23 @@ main {
 
 .botao-receita { 
     margin: 10px 30px 40px 0;
-    width: 150px;
-    padding: 10px 30px 10px 20px;
+    width: 160px;
+    padding: 10px 20px 10px 20px;
 
     border: 2px solid rgb(196, 133, 255);
     border-radius: 20px;
+
+    transition: 1000ms;
+}
+
+.botao-receita:hover {
+    background-color: rgb(214, 169, 255);
+    transform: scale(1.2);
+}
+
+.botao-receita a {
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 860px) {
