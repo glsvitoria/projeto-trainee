@@ -130,7 +130,7 @@ main {
     }
 
     .rodape-lateral {
-        margin: 30px 0 30px 0;
+        margin: 30px 0 0 0;
         width: 84%;
         height: auto;
     }
@@ -139,7 +139,7 @@ main {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 145px;
+        height: 120px;
     }
 
     .lista-categorias p {
