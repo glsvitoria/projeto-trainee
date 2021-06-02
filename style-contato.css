@@ -4,14 +4,27 @@ p, h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
 .area-principal {
     background-color: #E6B3A1;
-    width: 55%;
+    width: 60%;
     height: auto;
-    margin: 80px 150px 60px 120px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
     display: inline-block;
     padding: 40px;
+    margin: 30px 10px 30px 20px;
+}
+
+.area-secundaria {
+    margin: 30px 30px 30px 0;
+    width: 25%;
 }
 
 .area-principal h2 {
@@ -90,13 +103,16 @@ form label {
     transform: scale(1.2);
 }
 
-.area-secundaria {
-    display: inline;
-    
-}
 
 .rodape-lateral {
-    margin-top: 78px;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+.categorias p{
+    font-family: "Cookit", sans-serif ;
 }
