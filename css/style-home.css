@@ -61,7 +61,7 @@ main {
 }
 
 .categorias li:hover {
-    border-bottom: 2px dotted red ;
+    border-bottom: 3px solid red ;
     color: #614C44;
 }
 

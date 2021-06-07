@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Cookit";
-    src: url(fonts/Cookit-Regular.otf) format('opentype'), url(fonts/Cookit-Regular.ttf) format('truetype');
+    src: url(../fonts/Cookit-Regular.otf) format('opentype'), url(fonts/Cookit-Regular.ttf) format('truetype');
 }
 
 body {
