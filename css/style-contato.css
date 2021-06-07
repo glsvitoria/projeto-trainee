@@ -116,3 +116,18 @@ form label {
 .categorias p{
     font-family: "Cookit", sans-serif ;
 }
+
+@media screen and (max-width: 860px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area-principal {
+        width: 80%;
+    }
+
+    .area-secundaria {
+        width: 86%;
+    }
+}

@@ -86,7 +86,7 @@ footer p {
     font-size: 0.9em;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 860px){
 
     header{
         flex-direction: column;
