@@ -4,7 +4,7 @@
 
 ## Um pouco do Projeto:
 
-➡   Criação de um site simples da "Aparecidade Nutricionista" para aprimorar o conhecimento com o JavaScript, focando bem na parte interativa da linguagem em vez de trabalhar com o HTML e CSS. Conhecimento adquirido a parte do curso da Alura de "JavaScript: Programando na linguagem da web".
+➡   Criação de um blog, junto com os meus membros de equipe, de culinária em que conterá diversas receitas. O intuito maior é o exercício da criação dele em si partindo do zero tendo apenas um design generalista no figma. Dessa forma iremos unir todas as tecnologias citadas a baixo para que o site possa ser funcional, utilizável por qualquer um e com várias funcionalidades como comentários, formulário para enviar mensagem ao suporte e entre outros.
 
 ## Membros:
 
