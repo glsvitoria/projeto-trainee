@@ -16,6 +16,7 @@ main {
 .receita h1 {
     font-size: 3em;
     padding: 24px 0 24px 5%;
+    border: 1px solid black;
 }
 
 .imagem {
@@ -55,7 +56,7 @@ main {
 }
 
 .detalhes-receita ol li {
-    list-style-type: style;
+    list-style-type: decimal;
     padding-bottom: 24px;
     text-align: justify;
 }
@@ -71,17 +72,19 @@ main {
 
 .icone-imagem {
     height: 50px;
-    margin-right: 36px;
+    margin-right: 10%;
 }
 
 .info-receita-detalhes {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid black;
     border-radius: 8px;
     padding: 8px;
-    width: 40%;
+    width: 45%;
+    max-width: 350px;
 }
 
 .info-receita-detalhes-texto {
@@ -93,4 +96,66 @@ main {
 .info-receita-detalhes-texto h3 {
     font-size: 1.2em;
     margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+    .info-receita-detalhes-texto h3 {
+        font-size: 1.5em;
+    }
+
+    .info-receita-detalhes-texto p {
+        font-size: 1.2em;
+    }
+
+    .imagem {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .info-receita-detalhes-texto h3 {
+        font-size: 1.8em;
+    }
+
+    .info-receita-detalhes-texto p {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .receita {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .receita h1 {
+        text-align: center;
+    }
+
+    .info-receita {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-receita-detalhes {
+        width: 100%;
+    }
+
+    .info-receita-detalhes:first-child {
+        margin-bottom: 10px;
+    }
+
+    .imagem {
+        margin-bottom: 50px;
+    }
+
+    .detalhes-receita h2:first-child {
+        margin-top: 30px;
+    }
 }

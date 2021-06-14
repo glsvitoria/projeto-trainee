@@ -17,7 +17,10 @@ main {
 .rodape-lateral {
     padding: 20px;
     margin: 30px 30px 30px 0;
+
     border: 1px solid black;
+    border-radius: 4px;
+
     text-align: left;
     font-size: 1.4em;
     color: rgb(58, 58, 58);
@@ -167,4 +170,11 @@ main {
         display: block;
     }
 
+}
+
+@media screen and (min-width: 1200px) {
+    .foto {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
