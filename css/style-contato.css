@@ -20,6 +20,7 @@ main {
     display: inline-block;
     padding: 40px;
     margin: 30px 10px 30px 20px;
+    height: 100%;
 }
 
 .area-secundaria {
