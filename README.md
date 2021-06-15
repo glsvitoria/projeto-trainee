@@ -13,7 +13,7 @@
 ➡ Rafael Pondé
 ➡ João Paulo Paulos
 
-Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
 [<img src="https://img.shields.io/static/v1?label=&message=HTML&color=orange&style=for-the-badge&logo=HTML5&logoColor=white" />](https://github.com/glsvitoria)
 [<img src="https://img.shields.io/static/v1?label=&message=CSS&color=blue&style=for-the-badge&logo=CSS3&logoColor=white" />](https://github.com/glsvitoria)
