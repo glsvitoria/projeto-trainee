@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root{
+    --enviar: rgb(215, 215, 255);
+    --enviarHover: rgb(113, 113, 163);
+    --cabecalho: #C76F50;
+    --aSecundaria: #E6B3A1;
+}
+
 p, h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +20,7 @@ main {
 }
 
 .area-principal {
-    background-color: #E6B3A1;
+    background-color: var(--aSecundaria);
     width: 60%;
     height: auto;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.548);
@@ -87,7 +94,7 @@ form label {
     width: calc(100% - 40px);
 }
 
-.enviar {
+#enviar {
     border-radius: 15px;
     padding: 10px 20px;
     display: block;
@@ -99,7 +106,7 @@ form label {
     border: none;
 }
 
-.enviar:hover {
+#enviar:hover {
     background-color: rgb(113, 113, 163);
     transform: scale(1.2);
 }
@@ -116,6 +123,77 @@ form label {
 
 .categorias p{
     font-family: "Cookit", sans-serif ;
+}
+
+.feedback-overlay {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.699);
+
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.feedback-overlay.ativo {
+    opacity: 1;
+    visibility: visible;
+}
+
+.feedback{
+    background: white;
+    padding: 2.4rem;
+
+    position: relative;
+
+    margin: 30vh 31% 50vh 31%;
+
+    border-radius: 8px;
+    border: 8px solid var(--aSecundaria);
+
+    font-size: 1.2em;
+}
+
+.feedback .msg-pri {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.feedback .msg {
+    margin-top: 16px;
+}
+
+p#button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p#button button {
+    margin-top: 16px;
+    padding: 12px 16px;
+
+    border-radius: 12px;
+    border: 0; 
+
+    background: var(--enviar);
+    transition: 0.8s all;
+
+    cursor: pointer;
+}
+
+p#button button:hover{
+    background: var(--enviarHover);
+    transform: scale(1.2);
+    
+}
+
+.feedback input {
+    margin-top: 10px;
+    padding: 8px;
+    
 }
 
 @media screen and (max-width: 860px) {
