@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 90px;
     vertical-align: 45%;
 }
 
@@ -95,7 +95,7 @@ footer p {
         justify-content: space-between;
     }
 
-    
+
     header h1 {
         font-size: 60px;
     }
