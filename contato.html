@@ -47,7 +47,7 @@
                 <p>suporte@cubos.academy</p>
             </div>
 
-            <form>
+            <form id="formulario" name="form">
                 <div class="bloco-nome">
                     <label for="nome">Nome</label>
                     <input type="text" id="nome" class="input-padrao" required>
@@ -64,7 +64,7 @@
                 <label for="comentario">Comentário</label>
                 <textarea id="comentario" cols="30" rows="5" class="input-padrao" required></textarea>
 
-                <input type="submit" value="Enviar" class="enviar">
+                <button id="enviar">Enviar</button>
             </form>
         </section>
 
@@ -107,9 +107,21 @@
         </section>
     </main>
 
+    <section class="feedback-overlay">
+        <div class="feedback">
+            <p class="msg-pri">Obrigado pelo feedback. &#128077;</p>
+            <p class="msg">Seu comentário foi enviado para o nosso suporte.</p>
+            <p class="msg">Responderemos assim que possível.</p>
+            
+            <p id="button"><button onclick="fechar_feedback()">Confirmar</button></p>
+        </div>
+    </section>
+
     <footer>
         <img src="images/logo-circular.png" alt="Logo do site">
         <p>&#169  Copyright TITAN Food - 2021</p>
     </footer>
+
+    <script src="scripts/contato.js"></script>
 </body>
 </html>
