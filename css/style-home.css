@@ -118,7 +118,7 @@ main {
 }
 
 .botao-receita { 
-    margin: 10px 30px 40px 0;
+    margin: 10px 30px 20px 0;
     width: 160px;
     padding: 10px 20px 10px 20px;
 
@@ -126,6 +126,8 @@ main {
     border-radius: 20px;
 
     transition: 1000ms;
+
+    cursor: pointer;
 }
 
 .botao-receita:hover {
@@ -136,6 +138,37 @@ main {
 .botao-receita a {
     text-decoration: none;
     color: black;
+}
+
+#nome-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 90%;
+}
+
+.nome-email-detalhes {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.nome-email-detalhes label, .comentario label {
+   font-size: 1.6em;
+   font-family: 'Cookit', sans-serif;
+   margin-bottom: 12px;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+}
+
+.comentario textarea, .nome-email-detalhes input {
+    padding: 8px;
 }
 
 @media screen and (max-width: 860px) {
