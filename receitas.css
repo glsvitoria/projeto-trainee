@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+main {
+    flex-direction: row;
+}
+
+#receitas-smallposts {
+    width: 65%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#receitas-smallposts a {
+    text-decoration: none;
+}
+
+.receitas-posts {
+    border: 1px solid black;
+    border-radius: 4px;
+
+    width: 44%;
+    height: 100%;
+
+    padding: 2%;
+    margin-bottom: 20px;
+
+
+    background-color: #E6B3A1;
+}
+
+.receitas-posts h1 {
+    margin-bottom: 8x;
+
+    font-size: 1.8em;
+}
+
+.receitas-posts h2 {
+    margin-bottom: 12px;
+
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+
+.receitas-posts p {
+    margin-top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.img-receita-post {
+    width: 100%;
+}
+
+.botao-receita {
+    padding: 6px 12px;
+    width: auto;
+}
