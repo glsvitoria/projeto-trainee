@@ -44,6 +44,10 @@ main {
     margin-bottom: 20px;
 }
 
+.lista-maisvistos {
+    height: 80px;
+}
+
 .categorias ul {
     vertical-align: top;
 }
@@ -167,7 +171,7 @@ main {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 120px;
+        height: 130px;
     }
 
     .lista-categorias p {
