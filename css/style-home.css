@@ -42,6 +42,7 @@ main {
 
 .lista-categorias {
     margin-bottom: 20px;
+    height: 100%;
 }
 
 .lista-maisvistos {
@@ -177,7 +178,18 @@ main {
     .lista-categorias p {
         display: block;
     }
+}
 
+@media screen and (max-width: 425px){
+    .lista-categorias {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .lista-categorias {
+        height: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
