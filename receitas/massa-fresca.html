@@ -82,12 +82,8 @@
                 
             </div>
 
-            <section id="comentarios">
+            <section id="comentarios" class="disabled">
                 <h1>Comentários</h1>
-                <div class="comentario-adicionado">
-                    <p class="info-adicionado"><strong>Guilherme Vitória</strong> no dia 19/06/2021</p>
-                    <p class="comentario-adicionado-descricao">Gostei bastando da receita!</p>
-                </div>
             </section>
 
             <form id="form-comentario">
@@ -95,18 +91,18 @@
                 <div id="nome-email">
                   <div class="nome-email-detalhes">
                     <label for="nome-comentario">Nome</label>
-                    <input type="text" id="nome-comentario" >
+                    <input type="text" id="nome-comentario" required>
                   </div>
 
                   <div class="nome-email-detalhes">
                     <label for="email-comentario">Email</label>
-                    <input type="text" id="email-comentario">
+                    <input type="text" id="email-comentario" required>
                   </div>
                 </div>
 
                 <div class="comentario">
                   <label for="comentario">Comentario</label>
-                  <textarea type="text" id="comentario" rows="4"></textarea>
+                  <textarea type="text" id="comentario" rows="4" required></textarea>
                 </div>
 
                 <div class="botao"><button class="botao-receita">Enviar comentário</button></div>
@@ -149,5 +145,7 @@
         <img src="../images/logo-circular.png" alt="Logo do site">
         <p>&#169  Copyright TITAN Food - 2021</p>
     </footer>
+
+    <script src="../scripts/adicionar-comentario.js"></script>
 </body>
 </html>

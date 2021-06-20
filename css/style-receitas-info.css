@@ -23,7 +23,7 @@ main {
 }
 
 .detalhes-receita {
-    padding: 24px 0 24px 5%;
+    padding: 24px 0 0 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -169,21 +169,24 @@ main {
 
 }
 
-.info-adicionado strong{
-
-    padding: 2px 4px;
-
-    font-weight: 600;
-}
-
 .info-adicionado {
     margin-bottom: 12px;
+    font-size: 0.9em;
 
     text-decoration: underline; 
 }
 
+.info-adicionado span {
+    font-weight: 600;
+}
+
 .comentario-adicionado-descricao {
     font-size: 1.2em;
+}
+
+.disabled{
+    display: none;
+    position: hidden;
 }
 
 @media screen and (min-width: 1000px) {
