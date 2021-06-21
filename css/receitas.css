@@ -1,7 +1,63 @@
 @charset "UTF-8";
 
 main {
-    flex-direction: row;
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: -2px;
+}
+
+.post-cards-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regiao-detalhes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.detalhes-empresa {
+    text-align: center;
+    margin-right: 2rem;
+
+    width: 50%;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.detalhes-empresa h1 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+
+    margin: 1.6rem 0;
+}
+
+.detalhes-empresa p {
+    text-align: center;
+
+    margin: 1rem 0;
+}
+
+.mapa {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.mapa h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mapa p {
+    margin: 1rem;
 }
 
 #receitas-smallposts {
