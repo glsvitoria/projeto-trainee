@@ -16,6 +16,7 @@ main {
 
 .regiao-detalhes {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding-top: 3rem;
     color: white;
@@ -25,14 +26,13 @@ main {
 .detalhes-empresa {
     text-align: center;
     margin-right: 2rem;
-
-    width: 50%;
+    margin-bottom: 4rem;
 
     font-family: "Montserrat", sans-serif;
 }
 
 .detalhes-empresa h1 {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     font-weight: bolder;
 
     margin: 1.6rem 0;
@@ -48,16 +48,31 @@ main {
     font-family: "Montserrat", sans-serif;
     text-align: center;
 
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
 }
 
 .mapa h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+
     margin-bottom: 1rem;
 }
 
 .mapa p {
-    margin: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#receitas-smallposts h1.titulo-posts {
+    width: 100%;
+    color: rgb(58, 58, 58);
+    border: 1px solid black;
+    background-color: #E6B3A1;
+    font-size: 3.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 #receitas-smallposts {
