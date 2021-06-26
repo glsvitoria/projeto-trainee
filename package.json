@@ -1,0 +1,29 @@
+{
+  "name": "projeto-trainee-backend-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "console.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glsvitoria/projeto-trainee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glsvitoria/projeto-trainee/issues"
+  },
+  "homepage": "https://github.com/glsvitoria/projeto-trainee#readme"
+}

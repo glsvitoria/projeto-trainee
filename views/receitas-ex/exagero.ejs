@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Food</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-home.css">
+    <link rel="stylesheet" href="../css/style-receitas-info.css">
+    <%- include('../includes/favicon') %>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <%- include('../includes/header') %>
+
+    <main>
+
+        <div class="receita">
+            <h1>Exagero</h1>
+
+            <img class="imagem" src="../images/imagem-receitas/EXAGERO.jpg" alt="Foto do Exagero">
+
+            <div class="info-receita">
+                <section class="info-receita-detalhes">
+                    <img class="icone-imagem" src="../images/tempo-preparo.png" alt="Ícone de rendimento">
+                    <div class="info-receita-detalhes-texto">
+                        <h3>Tempo de preparo:</h3>
+                        <p>40 min</p>
+                    </div>
+                </section>
+
+                <section class="info-receita-detalhes">
+                    <img class="icone-imagem" src="../images/rendimento.png" alt="Ícone de porção">
+                    <div class="info-receita-detalhes-texto">
+                        <h3>Porção:</h3>
+                        <p>1 pessoa / A definir</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="detalhes-receita">
+                <h2>Ingredientes:</h2>
+                <ul type="circle">
+                   <li>450g de fraldinha moida</li>
+                   <li>60g de bacon moido</li>
+
+                   <li>Requeijao cremoso a gosto</li>
+
+                   <li>Pão de batata ou de leite</li>
+                   <li>manteiga a gosto</li>
+
+                   <li>1 peça de queio coalho</li>
+                   <li>50 g de farinha de trigo</li>
+                   <li>50 g de farinha de rosca</li>
+                   <li>1 ovo</li>
+
+                   <li>12 fatias de bacon / a gosto</li>
+
+                   <p>*Vale ressaltar que essa receita é feita para uma pessoa, então se quiser fazer para mais é só multiplicar ela para a quantidade certa</p>
+                </ul>
+
+                <h2>Modo de preparo:</h2>
+                <ol type="1">
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae omnis eum laboriosam, blanditiis dignissimos labore itaque et natus odio tempora? Illo natus aut neque aliquid repellat architecto eaque aperiam expedita!</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, natus quam distinctio nisi magnam asperiores! Autem maxime nesciunt vero, accusantium impedit eos provident repellat culpa in quaerat voluptate est modi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, molestias ut, quisquam ullam error voluptates illum omnis aliquam saepe, accusamus a ducimus dicta ipsam autem neque dolor reiciendis suscipit doloremque.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa autem harum, minus quas temporibus dolorum ullam commodi vitae ex, tenetur voluptas alias delectus ut debitis beatae inventore tempora nisi?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, alias. In, quod? Ipsum, ab! Sunt repellat porro, laborum iste fugit consequuntur distinctio beatae natus molestiae doloremque ullam voluptatem, aliquam sapiente!</li>
+                </ol>
+
+            </div>
+
+            <section id="comentarios">
+                <h1>Comentários</h1>
+                <div class="comentario-adicionado">
+                    <p class="info-adicionado"><strong>Guilherme Vitória</strong> no dia 19/06/2021</p>
+                    <p class="comentario-adicionado-descricao">Gostei bastando da receita!</p>
+                </div>
+            </section>
+
+            <form id="form-comentario">
+                <div id="nome-email">
+                  <div class="nome-email-detalhes">
+                    <label for="nome-comentario">Nome</label>
+                    <input type="text" id="nome-comentario" placeholder="Nome completo">
+                  </div>
+
+                  <div class="nome-email-detalhes">
+                    <label for="email-comentario">Email</label>
+                    <input type="text" id="email-comentario" placeholder="seuemail@dominio.com">
+                  </div>
+                </div>
+
+                <div class="comentario">
+                  <label for="comentario">Comentario</label>
+                  <textarea type="text" id="comentario" rows="4" placeholder="Comentário a ser adicionado"></textarea>
+                </div>
+
+                <div class="botao"><button class="botao-receita">Enviar comentário</button></div>
+              </form>
+
+
+        </div>
+
+        <%- include('../includes/rodape-lateral') %>
+
+
+    </main>
+
+    <%- include('../includes/footer') %>
+</body>
+</html>

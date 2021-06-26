@@ -1,3 +1,5 @@
+// const inserir = require("../../bancoDeDados")
+
 var botaoEnviar = document.querySelector('#enviar')
 
 botaoEnviar.addEventListener("click", function(event){
@@ -10,6 +12,8 @@ botaoEnviar.addEventListener("click", function(event){
     if(campoNome.value == 0 || campoEmail.value == 0 || campoAssunto.value == 0 || campoComentario.value == 0){
     } else {
         var feedback = document.querySelector('.feedback-overlay')
+
+        // inserir(campoNome.value, campoEmail.value, campoAssunto.value, campoComentario.value)
 
         feedback.classList.add('ativo')
     }

@@ -88,6 +88,17 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.posts-all > h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    background-color: #fbc5b1;
+}
+
 .post {
     width: auto;
     background-color: #ffe4da;
